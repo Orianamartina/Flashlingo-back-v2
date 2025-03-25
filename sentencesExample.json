@@ -1,0 +1,206 @@
+"SentencesDictionary" : {
+    'lang': {
+        'word': 'lang',
+        'sentence1': 'Ich habe einen _ Spaziergang gemacht.',
+        'sentence2': 'Der Film war ziemlich _.',
+        'sentence3': 'Die Wartezeit war wirklich zu _.'
+    },
+    'eigentlich': {
+        'word': 'eigentlich',
+        'sentence1': 'Ich wollte _ ins Kino gehen.',
+        'sentence2': 'Das war _ nicht meine Absicht.',
+        'sentence3': '_ wollte ich etwas anderes machen.'
+    },
+    'damit': {
+        'word': 'damit',
+        'sentence1': 'Ich bin gekommen, _ wir reden können.',
+        'sentence2': 'Bitte hilf mir, _ ich das verstehen kann.',
+        'sentence3': 'Er hat es getan, _ er es nicht bereut.'
+    },
+    'unser': {
+        'word': 'unser',
+        'sentence1': 'Das ist _ Haus.',
+        'sentence2': '_ Team hat gewonnen.',
+        'sentence3': '_ Auto ist in der Werkstatt.'
+    },
+    'oben': {
+        'word': 'oben',
+        'sentence1': 'Bitte setz dich _ hin.',
+        'sentence2': 'Das Buch liegt _ auf dem Regal.',
+        'sentence3': 'Kannst du das _ Fenster schließen?'
+    },
+    'drei': {
+        'word': 'drei',
+        'sentence1': 'Ich habe _ Äpfel gekauft.',
+        'sentence2': '_ Personen sind gekommen.',
+        'sentence3': 'Wir haben _ Hunde im Garten.'
+    },
+    'wenig': {
+        'word': 'wenig',
+        'sentence1': 'Ich habe nur _ Zeit.',
+        'sentence2': 'Kannst du mir bitte _ Salz geben?',
+        'sentence3': 'Die Prüfung war _ schwierig.'
+    },
+    'Frau': {
+        'word': 'Frau',
+        'sentence1': 'Die _ hat einen Hut auf.',
+        'sentence2': '_ Müller wohnt nebenan.',
+        'sentence3': 'Kannst du _ helfen, bitte?'
+    },
+    'mensch': {
+        'word': 'mensch',
+        'sentence1': 'Jeder _ hat Stärken und Schwächen.',
+        'sentence2': '_ kann Fehler machen.',
+        'sentence3': 'Die _ sind soziale Wesen.'
+    },
+    'deutsch': {
+        'word': 'deutsch',
+        'sentence1': 'Ich lerne _ als Fremdsprache.',
+        'sentence2': 'Diese Seite ist auf _ verfügbar.',
+        'sentence3': 'Mein Kollege spricht _ fließend.'
+    },
+    'kind': {
+        'word': 'kind',
+        'sentence1': 'Das _ spielt im Park.',
+        'sentence2': 'Ich habe zwei _.',
+        'sentence3': '_ sind unsere Zukunft.'
+    },
+    'etwas': {
+        'word': 'etwas',
+        'sentence1': 'Kannst du _ Wasser mitbringen?',
+        'sentence2': 'Ich möchte _ zu Essen bestellen.',
+        'sentence3': 'Gibt es _ Interessantes zu berichten?'
+    },
+    'tag': {
+        'word': 'tag',
+        'sentence1': 'Heute war ein langer _.',
+        'sentence2': '_ und Nacht unterscheiden sich voneinander.',
+        'sentence3': 'Ich wünsche dir einen schönen _.'
+    },
+    'nun': {
+        'word': 'nun',
+        'sentence1': 'Es ist _ Zeit, aufzustehen.',
+        'sentence2': '_ müssen wir eine Entscheidung treffen.',
+        'sentence3': 'Ich verstehe das _ nicht.'
+    },
+    'finden': {
+        'word': 'finden',
+        'sentence1': 'Ich konnte das Buch nicht _.',
+        'sentence2': 'Wo kann ich _ Informationen dazu?',
+        'sentence3': '_ Sie das auch merkwürdig?'
+    },
+    'nichts': {
+        'word': 'nichts',
+        'sentence1': 'Es gab _ zu essen.',
+        'sentence2': 'Ich habe _ davon gewusst.',
+        'sentence3': '_ ist unmöglich.'
+    },
+    'bleiben': {
+        'word': 'bleiben',
+        'sentence1': 'Kannst du noch ein bisschen _?',
+        'sentence2': 'Wir sollten hier nicht _.',
+        'sentence3': '_ Sie bitte sitzen.'
+    },
+    'sondern': {
+        'word': 'sondern',
+        'sentence1': 'Das war nicht rot, _ grün.',
+        'sentence2': 'Er ist nicht traurig, _ glücklich.',
+        'sentence3': 'Nicht nur sie, _ auch er.'
+    },
+    'klein': {
+        'word': 'klein',
+        'sentence1': 'Das Baby ist noch _.',
+        'sentence2': 'Der Hund ist _ und niedlich.',
+        'sentence3': '_ Dinge machen oft den Unterschied.'
+    },
+    'zwischen': {
+        'word': 'zwischen',
+        'sentence1': 'Das Buch liegt _ den anderen.',
+        'sentence2': '_ den beiden Städten liegt ein See.',
+        'sentence3': 'Wir haben eine Vereinbarung _ uns getroffen.'
+    },
+    'alt': {
+        'word': 'alt',
+        'sentence1': 'Mein Vater ist _.',
+        'sentence2': 'Das Buch ist _.',
+        'sentence3': '_ ist das Haus?'
+    },
+    'gegen': {
+        'word': 'gegen',
+        'sentence1': 'Ich habe _ ihn gekämpft.',
+        'sentence2': 'Wir sind _ das Projekt.',
+        'sentence3': 'Sie sind _ die Entscheidung.'
+    },
+    'liegen': {
+        'word': 'liegen',
+        'sentence1': 'Das Buch _ auf dem Tisch.',
+        'sentence2': '_ Sie gern im Bett?',
+        'sentence3': 'Die Schlüssel _ auf dem Regal.'
+    },
+    'ohne': {
+        'word': 'ohne',
+        'sentence1': 'Ich kann nicht _ dich leben.',
+        'sentence2': 'Kannst du das machen _ Hilfe?',
+        'sentence3': 'Ich gehe einkaufen _ Geld.'
+    },
+    'nein': {
+        'word': 'nein',
+        'sentence1': 'Ich habe gesagt _, aber er hat nicht gehört.',
+        'sentence2': 'Kannst du mir helfen? - _.',
+        'sentence3': '_ danke, ich bin schon satt.'
+    },
+    'heute': {
+        'word': 'heute',
+        'sentence1': '_ ist ein schöner Tag.',
+        'sentence2': '_ Abend gehe ich ins Kino.',
+        'sentence3': '_ Morgen habe ich frei.'
+    },
+    'weit': {
+        'word': 'weit',
+        'sentence1': 'Der Supermarkt ist nicht _ von hier.',
+        'sentence2': 'Wir müssen noch _ gehen.',
+        'sentence3': 'Das Ziel ist noch _ entfernt.'
+    },
+    'heißen': {
+        'word': 'heißen',
+        'sentence1': 'Wie _ Sie? - Ich _ Thomas.',
+        'sentence2': '_ diese Jacke teuer?',
+        'sentence3': '_ das auf Deutsch "Hallo"?'
+    },
+    'denken': {
+        'word': 'denken',
+        'sentence1': 'Ich _ oft an dich.',
+        'sentence2': '_ Sie, dass das möglich ist?',
+        'sentence3': 'Was _ du darüber?'
+    },
+    'eben': {
+        'word': 'eben',
+        'sentence1': 'Ich war _ im Supermarkt.',
+        'sentence2': 'Das ist _ nicht passiert.',
+        'sentence3': '_ habe ich dich gesehen.'
+    },
+    'erst': {
+        'word': 'erst',
+        'sentence1': 'Ich habe _ letzte Woche davon gehört.',
+        'sentence2': '_ dann können wir gehen.',
+        'sentence3': '_ wenn du fertig bist, können wir essen.'
+    },
+    'natürlich': {
+        'word': 'natürlich',
+        'sentence1': 'Ja, _ kann ich dir helfen.',
+        'sentence2': 'Das ist _ keine gute Idee.',
+        'sentence3': '_ kann ich das verstehen.'
+    },
+    'ob': {
+        'word': 'ob',
+        'sentence1': 'Ich frage mich, _ das stimmt.',
+        'sentence2': 'Weißt du, _ er kommen wird?',
+        'sentence3': '_ du Zeit hast, könnten wir reden.'
+    },
+    'hoch': {
+        'word': 'hoch',
+        'sentence1': 'Der Berg ist sehr _.',
+        'sentence2': 'Ich wohne im zehnten Stock, ganz _.',
+        'sentence3': 'Wir haben _ gewonnen!'
+    }
+}

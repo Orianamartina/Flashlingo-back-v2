@@ -1,0 +1,6 @@
+.venv
+.env
+venv-flash
+__pycache__/
+*.vscode/
+db.sqlite3

@@ -1,0 +1,6577 @@
+{
+    "columns": [
+        "german ",
+        "id",
+        "article",
+        "type",
+        "translations",
+        "sentences"
+    ],
+    "data": [
+        {
+            "german": "der",
+            "id": 0,
+            "article": null,
+            "type": "art",
+            "translations":[
+                "the"
+            ],
+            "sentences":[]
+        },
+        {
+            "id": 1,
+            "german": "die",
+            "article": null,
+            "type": "art",
+            "translations": [
+                "the"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 2,
+            "german": "das",
+            "article": null,
+            "type": "art",
+            "translations": [
+                "the"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 3,
+            "german": "und",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "and"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 4,
+            "german": "sein",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to be"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 5,
+            "german": "in",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "in"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 6,
+            "german": "im",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "in the"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 7,
+            "german": "ein",
+            "article": null,
+            "type": "indef art.",
+            "translations": [
+                "one"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 8,
+            "german": "zu",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "to"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 9,
+            "german": "haben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to have"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 10,
+            "german": "ich",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "i"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 11,
+            "german": "werden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to become"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 12,
+            "german": "sie(s)",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "she"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 13,
+            "german": "Sie",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "you"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 14,
+            "german": "sie(p)",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "they"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 15,
+            "german": "von",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "from"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 16,
+            "german": "nicht",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "not"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 17,
+            "german": "mit",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "with"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 18,
+            "german": "es",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "it"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 19,
+            "german": "sich",
+            "article": null,
+            "type": "refl pron",
+            "translations": [
+                "self"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 20,
+            "german": "auch",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "too",
+                "also"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 21,
+            "german": "auf",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "on ",
+                "at",
+                "in"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 22,
+            "german": "f\u00fcr",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "for"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 23,
+            "german": "an",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "at",
+                "on"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 24,
+            "german": "am",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "at",
+                "on the"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 25,
+            "german": "er",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "he"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 26,
+            "german": "so",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "so"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 27,
+            "german": "dass",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "that"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 28,
+            "german": "k\u00f6nnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "can"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 29,
+            "german": "dies",
+            "article": null,
+            "type": "det/pron",
+            "translations": [
+                "this",
+                "that"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 30,
+            "german": "als",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "as",
+                "when"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 31,
+            "german": "ja",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "yes"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 32,
+            "german": "wie",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "how",
+                "as"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 33,
+            "german": "bei",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "by",
+                "with",
+                "at"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 34,
+            "german": "oder",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "or"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 35,
+            "german": "wir",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "we"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 36,
+            "german": "aber",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "but"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 37,
+            "german": "dann",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "then"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 38,
+            "german": "man",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "one"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 39,
+            "german": "da",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "there"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 40,
+            "german": "noch",
+            "article": null,
+            "type": "poss adj",
+            "translations": [
+                "still",
+                "yet"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 41,
+            "german": "nach",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "after",
+                "toward"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 42,
+            "german": "was",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "what"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 43,
+            "german": "also",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "so",
+                "therefore"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 44,
+            "german": "aus",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "out",
+                "out of",
+                "from"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 45,
+            "german": "all",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "all"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 46,
+            "german": "wenn",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "if",
+                "when"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 47,
+            "german": "nur",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "only"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 48,
+            "german": "m\u00fcssen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "have to",
+                "must"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 49,
+            "german": "sagen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to say"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 50,
+            "german": "um",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "around",
+                "at"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 51,
+            "german": "\u00fcber",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "above",
+                "over",
+                "about"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 52,
+            "german": "machen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to do",
+                "to make"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 53,
+            "german": "kein(e)",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "not",
+                "not"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 54,
+            "german": "Jahr",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "year"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 55,
+            "german": "du",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "you"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 56,
+            "german": "mein(e)",
+            "article": null,
+            "type": "poss adj",
+            "translations": [
+                "my"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 57,
+            "german": "schon",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "already"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 58,
+            "german": "vor",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "in front of",
+                "before",
+                "ago"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 59,
+            "german": "durch",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "through"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 60,
+            "german": "geben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to give"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 61,
+            "german": "mehr",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "more"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 62,
+            "german": "andere",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "other"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 63,
+            "german": "viel",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "much",
+                "a lot",
+                "many"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 64,
+            "german": "kommen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to come"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 65,
+            "german": "jetzt",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "now"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 66,
+            "german": "sollen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "should"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 67,
+            "german": "wollen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to want"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 68,
+            "german": "ganz",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "quite",
+                "whole"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 69,
+            "german": "immer",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "always"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 70,
+            "german": "gehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to go"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 71,
+            "german": "sehr",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "very"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 72,
+            "german": "hier",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "here"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 73,
+            "german": "doch",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "however",
+                "still"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 74,
+            "german": "bis",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "until"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 75,
+            "german": "gro\u00df",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "big",
+                "large"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 76,
+            "german": "wieder",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "again"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 77,
+            "german": "zwei",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "two"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 78,
+            "german": "gut",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "good"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 79,
+            "german": "wissen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to know"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 80,
+            "german": "neu",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "new"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 81,
+            "german": "sehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to see"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 82,
+            "german": "lassen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to let",
+                "to allow"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 83,
+            "german": "uns",
+            "article": null,
+            "type": "pers pron",
+            "translations": [
+                "us"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 84,
+            "german": "weil",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "because"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 85,
+            "german": "unter",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "under"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 86,
+            "german": "denn",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "because"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 87,
+            "german": "stehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to stand"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 88,
+            "german": "jed",
+            "article": null,
+            "type": "det/pron",
+            "translations": [
+                "every",
+                "each"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 89,
+            "german": "Beispiel",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "example"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 90,
+            "german": "Zeit",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "time"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 91,
+            "german": "erste",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "first"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 92,
+            "german": "wo  ",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "where"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 93,
+            "german": "lang",
+            "article": null,
+            "type": "adj/adv",
+            "translations": [
+                "long",
+                "long time"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 94,
+            "german": "eigentlich",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "actually"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 95,
+            "german": "damit",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "with it",
+                "so that"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 96,
+            "german": "unser",
+            "article": null,
+            "type": "poss adj",
+            "translations": [
+                "our"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 97,
+            "german": "oben",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "above"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 98,
+            "german": "drei",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "three"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 99,
+            "german": "wenig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "few",
+                "little"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 100,
+            "german": "Frau",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "woman"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 101,
+            "german": "Mensch",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "human being",
+                "person"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 102,
+            "german": "deutsch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "german"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 103,
+            "german": "Kind",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "child"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 104,
+            "german": "etwas",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "something"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 105,
+            "german": "Tag",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "day"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 106,
+            "german": "nun",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "now"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 107,
+            "german": "finden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to find"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 108,
+            "german": "nichts",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "nothing"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 109,
+            "german": "bleiben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to stay"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 110,
+            "german": "sondern",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "but"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 111,
+            "german": "klein",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "small",
+                "little"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 112,
+            "german": "zwischen",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "between"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 113,
+            "german": "alt",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "old"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 114,
+            "german": "gegen",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "against"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 115,
+            "german": "liegen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to lie"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 116,
+            "german": "ohne",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "without"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 117,
+            "german": "nein",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "no"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 118,
+            "german": "heute",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "today"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 119,
+            "german": "weit",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "far"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 120,
+            "german": "hei\u00dfen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to be called"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 121,
+            "german": "denken",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to think"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 122,
+            "german": "eben",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "just now"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 123,
+            "german": "erst  ",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "first",
+                "only"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 124,
+            "german": "nat\u00fcrlich",
+            "article": null,
+            "type": "adj/adv",
+            "translations": [
+                "naturally",
+                "of course"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 125,
+            "german": "ob  ",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "wether"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 126,
+            "german": "hoch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "high"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 127,
+            "german": "beide",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "both"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 128,
+            "german": "Mann",
+            "article": "der ",
+            "type": "noun",
+            "translations": [
+                "man"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 129,
+            "german": "einfach",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "easy",
+                "simple"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 130,
+            "german": "vielleicht",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "maybe",
+                "perhaps"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 131,
+            "german": "dort",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "there"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 132,
+            "german": "dabei",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "with it",
+                "there"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 133,
+            "german": "einmal",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "once"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 134,
+            "german": "welche",
+            "article": null,
+            "type": "det/pron",
+            "translations": [
+                "which"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 135,
+            "german": "nehmen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to take"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 136,
+            "german": "tun",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to do"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 137,
+            "german": "seit",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "since",
+                "for"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 138,
+            "german": "d\u00fcrfen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to be allowed",
+                "may"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 139,
+            "german": "glauben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to believe"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 140,
+            "german": "halten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to stop",
+                "to hold"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 141,
+            "german": "nennen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to name"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 142,
+            "german": "Land",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "country"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 143,
+            "german": "letzt",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "last"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 144,
+            "german": "gleich",
+            "article": null,
+            "type": "adj/adv",
+            "translations": [
+                "same",
+                "just"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 145,
+            "german": "solch",
+            "article": null,
+            "type": "det/pron",
+            "translations": [
+                "such"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 146,
+            "german": "dazu",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "in addition",
+                "furthermore"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 147,
+            "german": "m\u00f6gen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to like"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 148,
+            "german": "Frage",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "question"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 149,
+            "german": "gar",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "at all"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 150,
+            "german": "zeigen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to show"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 151,
+            "german": "f\u00fchren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to lead",
+                "to rule"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 152,
+            "german": "m\u00f6glich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "possible"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 153,
+            "german": "sprechen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to speak"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 154,
+            "german": "w\u00e4hrend",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "during",
+                "while"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 155,
+            "german": "Haus",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "house"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 156,
+            "german": "Fall",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "case"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 157,
+            "german": "bringen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to bring"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 158,
+            "german": "Leute",
+            "article": null,
+            "type": "noun",
+            "translations": [
+                "people"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 159,
+            "german": "sch\u00f6n",
+            "article": "die",
+            "type": "adj",
+            "translations": [
+                "beautiful"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 160,
+            "german": "einige",
+            "article": null,
+            "type": "pron/adj",
+            "translations": [
+                "a few",
+                "some"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 161,
+            "german": "bereits",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "already"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 162,
+            "german": "Arbeit",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "work"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 163,
+            "german": "leben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to live"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 164,
+            "german": "fahren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to drive",
+                "to ride"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 165,
+            "german": "meinen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to think",
+                "to have an opinion"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 166,
+            "german": "sp\u00e4t",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "late"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 167,
+            "german": "etwa  ",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "about"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 168,
+            "german": "wer  ",
+            "article": null,
+            "type": "interrog pron",
+            "translations": [
+                "who"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 169,
+            "german": "Prozent",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "percent"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 170,
+            "german": "fragen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to ask"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 171,
+            "german": "gerade",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "just",
+                "just now"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 172,
+            "german": "wichtig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "important"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 173,
+            "german": "zwar",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "admittedly",
+                "to be precise"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 174,
+            "german": "Hand",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "hand"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 175,
+            "german": "wirklich",
+            "article": null,
+            "type": "adj/adv",
+            "translations": [
+                "really"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 176,
+            "german": "kennen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to know"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 177,
+            "german": "weitere",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "additional"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 178,
+            "german": "genau",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "exact",
+                "exactly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 179,
+            "german": "jung",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "young"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 180,
+            "german": "gelten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to be valid"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 181,
+            "german": "Stadt",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "city"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 182,
+            "german": "Teil",
+            "article": "der/ads",
+            "type": "noun",
+            "translations": [
+                "part"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 183,
+            "german": "Herr",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "gentleman"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 184,
+            "german": "Problem",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "problem"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 185,
+            "german": "Welt",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "world"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 186,
+            "german": "jedoch",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "however"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 187,
+            "german": "stellen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to put",
+                "to set"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 188,
+            "german": "darauf",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "on it",
+                "to it"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 189,
+            "german": "bisschen",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "little bit",
+                "a little bit"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 190,
+            "german": "vier",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "four"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 191,
+            "german": "nie",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "never"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 192,
+            "german": "spielen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to play"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 193,
+            "german": "Recht",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "right",
+                "law"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 194,
+            "german": "arbeiten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to work"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 195,
+            "german": "brauchen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to need"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 196,
+            "german": "folgen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to follow"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 197,
+            "german": "lernen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to learn"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 198,
+            "german": "Ende",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "end"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 199,
+            "german": "kurz",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "short"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 200,
+            "german": "Million",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "million"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 201,
+            "german": "stark",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "strong"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 202,
+            "german": "Schule",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "school"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 203,
+            "german": "woche",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "week"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 204,
+            "german": "bestehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to exist"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 205,
+            "german": "richtig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "right",
+                "correct"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 206,
+            "german": "daf\u00fcr",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "for it"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 207,
+            "german": "sowie",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "as well as"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 208,
+            "german": "oft",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "often"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 209,
+            "german": "Vater",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "father"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 210,
+            "german": "Seite",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "page",
+                "side"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 211,
+            "german": "verschieden",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "different"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 212,
+            "german": "halt",
+            "article": null,
+            "type": "part",
+            "translations": [
+                "just",
+                "simply"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 213,
+            "german": "Leben",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "life"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 214,
+            "german": "allerdings",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "though",
+                "indeed",
+                "certainly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 215,
+            "german": "verstehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to understand"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 216,
+            "german": "fast",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "almost"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 217,
+            "german": "wohl",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "probably"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 218,
+            "german": "bestimmt",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "special",
+                "certain"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 219,
+            "german": "Mutter",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "mother"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 220,
+            "german": "setzen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to set",
+                "to place ",
+                "to put"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 221,
+            "german": "\u00fcberhaupt",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "at all",
+                "generally"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 222,
+            "german": "Grund",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "reason",
+                "basis"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 223,
+            "german": "besser",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "better"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 224,
+            "german": "schnell",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "fast"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 225,
+            "german": "bekommen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to get",
+                "to receive"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 226,
+            "german": "gern(e)",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "gladly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 227,
+            "german": "Auge",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "eye"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 228,
+            "german": "sicher",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "safe",
+                "secure",
+                "certain"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 229,
+            "german": "davon",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "from it",
+                "about it ",
+                "thereof"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 230,
+            "german": "beginnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to begin"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 231,
+            "german": "erz\u00e4hlen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to narrate",
+                "to tell"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 232,
+            "german": "versuchen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to try",
+                "to attempt"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 233,
+            "german": "besonders",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "especially"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 234,
+            "german": "Wort",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "word"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 235,
+            "german": "neben",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "beside",
+                "next to"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 236,
+            "german": "schreiben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to write"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 237,
+            "german": "warum",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "why"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 238,
+            "german": "n\u00e4chst",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "next"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 239,
+            "german": "laufen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to run"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 240,
+            "german": "Geld",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "money"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 241,
+            "german": "erkl\u00e4ren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to explain"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 242,
+            "german": "Sache ",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "thing"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 243,
+            "german": "Art",
+            "article": "art",
+            "type": "noun",
+            "translations": [
+                "kind",
+                "type"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 244,
+            "german": "politisch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "political"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 245,
+            "german": "entsprechen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to correspond to"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 246,
+            "german": "klar",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "clear"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 247,
+            "german": "schwer",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "difficult",
+                "heavy",
+                "hard"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 248,
+            "german": "Bereich",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "area",
+                "region"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 249,
+            "german": "allein",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "alone"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 250,
+            "german": "kaum",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "hardly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 251,
+            "german": "Weg",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "way"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 252,
+            "german": "sitzen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to sit"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 253,
+            "german": "Stunde",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "hour"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 254,
+            "german": "einzeln",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "individual"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 255,
+            "german": "deshalb",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "for that reason"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 256,
+            "german": "deren",
+            "article": null,
+            "type": "dem. pron/rel. pron",
+            "translations": [
+                "whose"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 257,
+            "german": "ziehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to move",
+                "to pull"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 258,
+            "german": "na  ",
+            "article": null,
+            "type": "part",
+            "translations": [
+                "well"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 259,
+            "german": "beziehungsweise",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "and",
+                "or",
+                "and/or"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 260,
+            "german": "sogar",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "even",
+                "in fact"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 261,
+            "german": "Name",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "name"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 262,
+            "german": "damals",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "back then"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 263,
+            "german": "f\u00fcnf",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "five"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 264,
+            "german": "Geschichte",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "story",
+                "history"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 265,
+            "german": "wegen",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "because of"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 266,
+            "german": "Gesellschaft",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "society",
+                "company"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 267,
+            "german": "scheinen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to shine",
+                "to seem",
+                "to appear"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 268,
+            "german": "dar\u00fcber",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "above it",
+                "about it"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 269,
+            "german": "fallen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to fall"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 270,
+            "german": "Kopf",
+            "article": null,
+            "type": "noun",
+            "translations": [
+                "head"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 271,
+            "german": "geh\u00f6ren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to belong to"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 272,
+            "german": "entstehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to originate"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 273,
+            "german": "bekannt",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "well known"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 274,
+            "german": "erhalten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to receive"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 275,
+            "german": "Paar",
+            "article": null,
+            "type": "noun",
+            "translations": [
+                "pair",
+                "couple"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 276,
+            "german": "leicht",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "light",
+                "easy"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 277,
+            "german": "M\u00f6glichkeit",
+            "article": null,
+            "type": "noun",
+            "translations": [
+                "possibility"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 278,
+            "german": "treffen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to meet"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 279,
+            "german": "hinter",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "behind"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 280,
+            "german": "sonst",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "otherwise"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 281,
+            "german": "daran",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "on it"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 282,
+            "german": "Unternehmen",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "enterprise",
+                "company"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 283,
+            "german": "weiter",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "further"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 284,
+            "german": "suchen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to search",
+                "to look for"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 285,
+            "german": "Bild",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "picture"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 286,
+            "german": "Buch",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "book"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 287,
+            "german": "legen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to put",
+                "to lay"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 288,
+            "german": "Wasser",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "water"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 289,
+            "german": "Stelle ",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "place"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 290,
+            "german": "vorstellen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to introduce",
+                "to imagine"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 291,
+            "german": "Form ",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "form",
+                "shape"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 292,
+            "german": "handeln",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to deal",
+                "to trade",
+                "to handle"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 293,
+            "german": "Mark",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "mark"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 294,
+            "german": "Entwicklung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "development"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 295,
+            "german": "Monat",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "month"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 296,
+            "german": "erreichen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to reach"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 297,
+            "german": "anders",
+            "article": null,
+            "type": "pred. adj/adv",
+            "translations": [
+                "differently"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 298,
+            "german": "schlie\u00dflich",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "in the end",
+                "finally"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 299,
+            "german": "tragen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to carry",
+                "to wear"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 300,
+            "german": "eher",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "earlier",
+                "more likely",
+                "rather"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 301,
+            "german": "Familie",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "family"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 302,
+            "german": "Morgen",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "moning",
+                "tomorrow"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 303,
+            "german": "je ",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "ever",
+                "each"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 304,
+            "german": "Abend",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "evening"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 305,
+            "german": "zehn",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "ten"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 306,
+            "german": "darin",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "in it",
+                "inside"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 307,
+            "german": "rund",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "round"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 308,
+            "german": "Aufgabe",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "assigment",
+                "task",
+                "job"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 309,
+            "german": "frei",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "free"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 310,
+            "german": "Universit\u00e4t",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "university"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 311,
+            "german": "schaffen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to manage",
+                "to create"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 312,
+            "german": "Sinn",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "sense",
+                "meaning"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 313,
+            "german": "fr\u00fch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "early"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 314,
+            "german": "lesen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to read"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 315,
+            "german": "Staat",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "state"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 316,
+            "german": "Ziel",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "goal",
+                "destination"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 317,
+            "german": "gegen\u00fcber",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "opposite"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 318,
+            "german": "Freund",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "friend"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 319,
+            "german": "Thema",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "theme",
+                "topic",
+                "subject"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 320,
+            "german": "unterschiedlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "different"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 321,
+            "german": "daher",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "from there",
+                "therefore"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 322,
+            "german": "Person",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "person"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 323,
+            "german": "schlecht",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "bad"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 324,
+            "german": "Euro",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "euro"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 325,
+            "german": "obwohl",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "although"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 326,
+            "german": "Nacht",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "night"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 327,
+            "german": "verlieren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to lose"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 328,
+            "german": "Ding",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "thing"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 329,
+            "german": "deutlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "clear"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 330,
+            "german": "allgemein",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "general"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 331,
+            "german": "Raum",
+            "article": "der",
+            "type": "adj",
+            "translations": [
+                "room",
+                "space"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 332,
+            "german": "Blick",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "look",
+                "view",
+                "glance"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 333,
+            "german": "einzig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "only",
+                "single"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 334,
+            "german": "darstellen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "portray",
+                "to depict"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 335,
+            "german": "Platz",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "place",
+                "room",
+                "square"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 336,
+            "german": "Zahl",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "number"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 337,
+            "german": "gemeinsam",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "common",
+                "mutual"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 338,
+            "german": "nah(e)",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "near",
+                "close"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 339,
+            "german": "System",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "system"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 340,
+            "german": "Uhr",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "clock"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 341,
+            "german": "Eltern",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "parents"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 342,
+            "german": "erkennen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to recognize"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 343,
+            "german": "entwickeln",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to develop"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 344,
+            "german": "fr\u00fcher",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "earlier"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 345,
+            "german": "Stra\u00dfe",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "street"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 346,
+            "german": "reden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to talk"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 347,
+            "german": "voll",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "full"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 348,
+            "german": "aus sehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to appear",
+                "to look like"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 349,
+            "german": "erscheinen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to appear"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 350,
+            "german": "mehrere",
+            "article": null,
+            "type": "adj/pron",
+            "translations": [
+                "several"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 351,
+            "german": "Minute",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "minute"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 352,
+            "german": "zun\u00e4chst",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "first",
+                "at first",
+                "for now"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 353,
+            "german": "Gruppe",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "group"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 354,
+            "german": "Wert",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "value",
+                "worth"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 355,
+            "german": "Gesicht",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "face"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 356,
+            "german": "irgendwie",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "somehow"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 357,
+            "german": "Sprache",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "language"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 358,
+            "german": "bilden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to form",
+                "to educate"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 359,
+            "german": "dadurch",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "through it",
+                "as a result"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 360,
+            "german": "direkt",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "direct",
+                "straight"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 361,
+            "german": "international",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "international"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 362,
+            "german": "sozial",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "social"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 363,
+            "german": "an fangen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to begin"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 364,
+            "german": "best",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "best"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 365,
+            "german": "bisher",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "until now"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 366,
+            "german": "erwarten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to expect"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 367,
+            "german": "Anfang",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "beggining"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 368,
+            "german": "n\u00e4mlich",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "namely"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 369,
+            "german": "wohnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to live"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 370,
+            "german": "rot",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "red"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 371,
+            "german": "offen",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "open"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 372,
+            "german": "Ort",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "place",
+                "town",
+                "location"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 373,
+            "german": "naja",
+            "article": null,
+            "type": "part",
+            "translations": [
+                "well...",
+                "well"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 374,
+            "german": "Moment",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "moment"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 375,
+            "german": "betreffen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to affect",
+                "concern"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 376,
+            "german": "meist-",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "most"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 377,
+            "german": "warten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to wait"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 378,
+            "german": "Folge ",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "result",
+                "consequence",
+                "series"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 379,
+            "german": "ab  ",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "from"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 380,
+            "german": "besonder ",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "special"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 381,
+            "german": "gewiss",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "certain"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 382,
+            "german": "Interesse",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "interest"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 383,
+            "german": "manchmal",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "sometimes"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 384,
+            "german": "Milliarde",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "billion"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 385,
+            "german": "Rolle",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "role"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 386,
+            "german": "jemand",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "someone"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 387,
+            "german": "vergehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to elapse",
+                "to decay"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 388,
+            "german": "\u00f6ffentlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "public"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 389,
+            "german": "T\u00fcr",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "door"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 390,
+            "german": "Sch\u00fcler",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "student",
+                "pupil"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 391,
+            "german": "Bedeutung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "meaning"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 392,
+            "german": "Text",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "text"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 393,
+            "german": "Ergebnis",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "result"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 394,
+            "german": "helfen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to help"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 395,
+            "german": "Krieg",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "war"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 396,
+            "german": "sechs",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "six"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 397,
+            "german": "niemand",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "nobody"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 398,
+            "german": "gewinnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to win"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 399,
+            "german": "halb",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "half"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 400,
+            "german": "schlie\u00dfen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to close"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 401,
+            "german": "Weise",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "way",
+                "manner"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 402,
+            "german": "Regierung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "government"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 403,
+            "german": "europ\u00e4isch",
+            "article": null,
+            "type": "adj/adv",
+            "translations": [
+                "probable",
+                "probably"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 404,
+            "german": "St\u00fcck",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "piece"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 405,
+            "german": "Wohnung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "apartment"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 406,
+            "german": "f\u00fchlen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to feel"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 407,
+            "german": "Gespr\u00e4ch",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "conversation"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 408,
+            "german": "bieten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to offer"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 409,
+            "german": "interessieren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to interest"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 410,
+            "german": "wesentlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "fundamental",
+                "essential"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 411,
+            "german": "erinnern",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to remind"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 412,
+            "german": "Meter",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "meter"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 413,
+            "german": "her",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "away from"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 414,
+            "german": "Punkt",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "dot ",
+                "point",
+                "period"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 415,
+            "german": "Situation",
+            "article": "die ",
+            "type": "noun",
+            "translations": [
+                "situation"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 416,
+            "german": "\u00e4hnlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "similar"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 417,
+            "german": "ergeben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to result in",
+                "yield"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 418,
+            "german": "dagegen",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "against it",
+                "on the other hand"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 419,
+            "german": "h\u00e4ufig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "frequent"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 420,
+            "german": "Lehrer",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "teacher"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 421,
+            "german": "an bieten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to offer"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 422,
+            "german": "abenso",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "just as",
+                "as much as",
+                "as well"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 423,
+            "german": "studieren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to study"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 424,
+            "german": "danach",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "after it",
+                "afterwards"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 425,
+            "german": "Preis",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "price",
+                "prize"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 426,
+            "german": "Abbildung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "illustration"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 427,
+            "german": "Begriff",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "concept",
+                "idea",
+                "term"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 428,
+            "german": "Funktion",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "function"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 429,
+            "german": "verbinden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to conect",
+                "link"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 430,
+            "german": "ziemlich",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "quite",
+                "fairly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 431,
+            "german": "an sehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to look at",
+                "watch"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 432,
+            "german": "Boden",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "ground",
+                "floor",
+                "bottom"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 433,
+            "german": "fehlen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to lack",
+                "to be missing",
+                "to be absent"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 434,
+            "german": "Jahrhundert",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "century"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 435,
+            "german": "Sohn",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "son"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 436,
+            "german": "Werk",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "work",
+                "factory"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 437,
+            "german": "bedeuten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to mean"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 438,
+            "german": "schwarz",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "black"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 439,
+            "german": "vergleichen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to compare"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 440,
+            "german": "au\u00dferdem",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "besides",
+                "in addition"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 441,
+            "german": "inzwischen",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "in the meantime"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 442,
+            "german": "sofort",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "inmediately"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 443,
+            "german": "steigen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to climb",
+                "to increase"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 444,
+            "german": "Stimme",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "voice"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 445,
+            "german": "acht",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "eight"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 446,
+            "german": "pl\u00f6tzlich",
+            "article": null,
+            "type": "adj/adv",
+            "translations": [
+                "sudden",
+                "suddenly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 447,
+            "german": "Rahmen",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "frame",
+                "framework"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 448,
+            "german": "Richtung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "direction"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 449,
+            "german": "v\u00f6llig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "complete"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 450,
+            "german": "nutzen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to use"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 451,
+            "german": "Programm",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "program",
+                "schedule"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 452,
+            "german": "Angst",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "fear",
+                "anxiety"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 453,
+            "german": "gering",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "low",
+                "small"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 454,
+            "german": "Information",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "information"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 455,
+            "german": "Kunst",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "art"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 456,
+            "german": "Musik",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "music"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 457,
+            "german": "schauen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to look "
+            ],
+            "sentences": []
+        },
+        {
+            "id": 458,
+            "german": "schwierig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "difficult"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 459,
+            "german": "Politik",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "politics"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 460,
+            "german": "verlassen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to leave"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 461,
+            "german": "manch-",
+            "article": null,
+            "type": "det./pron",
+            "translations": [
+                "some",
+                "many a"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 462,
+            "german": "bald",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "soon"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 463,
+            "german": "ein setzen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to put in",
+                "insert"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 464,
+            "german": "Beruf",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "occupation",
+                "job",
+                "profession"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 465,
+            "german": "praktisch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "practical"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 466,
+            "german": "\u00e4ndern",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to change"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 467,
+            "german": "genung",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "enough"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 468,
+            "german": "pers\u00f6nlich",
+            "article": null,
+            "type": "adj /adv",
+            "translations": [
+                "peronal",
+                "personally"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 469,
+            "german": "wachsen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to grow"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 470,
+            "german": "aus gehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to go out",
+                "assume"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 471,
+            "german": "Regel",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "rule"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 472,
+            "german": "Schritt",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "step"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 473,
+            "german": "-j\u00e4hrig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "year old"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 474,
+            "german": "Absatz",
+            "article": "der ",
+            "type": "noun",
+            "translations": [
+                "sales",
+                "paragraph",
+                "heel"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 475,
+            "german": "geschehen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to happen",
+                "to occur"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 476,
+            "german": "Gott",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "god"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 477,
+            "german": "Auto",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "car"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 478,
+            "german": "beschrieben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to describe"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 479,
+            "german": "Beziehung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "relation",
+                "relationship"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 480,
+            "german": "Erfahrung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "experience"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 481,
+            "german": "Tisch",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "table"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 482,
+            "german": "an nehmen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to accept",
+                "to asume"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 483,
+            "german": "endlich",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "finally",
+                "at last"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 484,
+            "german": "kriegen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to get",
+                "to receive"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 485,
+            "german": "Zukunft",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "future"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 486,
+            "german": "planen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to plan"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 487,
+            "german": "Spiel",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "game"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 488,
+            "german": "wirken",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to work",
+                "to have an effect"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 489,
+            "german": "Gef\u00fchl",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "feeling"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 490,
+            "german": "Licht",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "light"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 491,
+            "german": "modern",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "modern"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 492,
+            "german": "Pr\u00e4sident",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "president"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 493,
+            "german": "tief",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "deep"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 494,
+            "german": "bezeichnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to call",
+                "to name"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 495,
+            "german": "Markt",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "market"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 496,
+            "german": "Bank",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "bank",
+                "bench"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 497,
+            "german": "innerhalb",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "within"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 498,
+            "german": "insbesondere",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "especially"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 499,
+            "german": "Partel",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "party",
+                "political party"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 500,
+            "german": "tats\u00e4chlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "real",
+                "actual"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 501,
+            "german": "Tochter",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "daughter"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 502,
+            "german": "befinden(sich)",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to be  "
+            ],
+            "sentences": []
+        },
+        {
+            "id": 503,
+            "german": "passieren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to take place",
+                "to happen"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 504,
+            "german": "Verh\u00e4ltnis",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "relationship"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 505,
+            "german": "zuz\u00e4tzlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "additional"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 506,
+            "german": "Kirche",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "church"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 507,
+            "german": "aufgrund",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "because of",
+                "on the basis of"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 508,
+            "german": "hin",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "there"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 509,
+            "german": "hin und her",
+            "article": null,
+            "type": null,
+            "translations": [
+                "back and forth"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 510,
+            "german": "hin und wieder",
+            "article": null,
+            "type": null,
+            "translations": [
+                "every now and then"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 511,
+            "german": "amerikanisch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "american"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 512,
+            "german": "ebenfalls",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "likewise"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 513,
+            "german": "Film",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "film"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 514,
+            "german": "nachdem",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "after "
+            ],
+            "sentences": []
+        },
+        {
+            "id": 515,
+            "german": "rufen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to call"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 516,
+            "german": "wirtschaftlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "economic",
+                "financial"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 517,
+            "german": "aufnehmen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to record",
+                "to include"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 518,
+            "german": "Gedanke",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "thought"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 519,
+            "german": "gestern",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "yesterday"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 520,
+            "german": "interessant",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "interesting"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 521,
+            "german": "zunehmen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to increase"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 522,
+            "german": "bestimmen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to decide"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 523,
+            "german": "Doktor",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "doctor"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 524,
+            "german": "fordern",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to demand"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 525,
+            "german": "gefallen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to please"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 526,
+            "german": "M\u00e4dchen",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "girl"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 527,
+            "german": "\u00f6ffnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to open"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 528,
+            "german": "schlagen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to hit",
+                "to beat"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 529,
+            "german": "trotz",
+            "article": null,
+            "type": "prep",
+            "translations": [
+                "in spite of"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 530,
+            "german": "bevor",
+            "article": null,
+            "type": "conj",
+            "translations": [
+                "before"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 531,
+            "german": "Entscheidung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "decision"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 532,
+            "german": "Prozess",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "trial",
+                "process"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 533,
+            "german": "relativ",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "relative"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 534,
+            "german": "treten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to step"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 535,
+            "german": "Betrieb",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "business"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 536,
+            "german": "bitte",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "please"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 537,
+            "german": "gleichzeitig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "simultaneous"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 538,
+            "german": "\u00fcbernehmen ",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to take over"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 539,
+            "german": "ver\u00e4ndern",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to change"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 540,
+            "german": "Zusammenhang",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "connection"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 541,
+            "german": "(in diesen) zusammenhang",
+            "article": null,
+            "type": null,
+            "translations": [
+                "in this context"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 542,
+            "german": "(im) zusammengang (mit)",
+            "article": null,
+            "type": null,
+            "translations": [
+                "in connection with"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 543,
+            "german": "Gesetz",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "law"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 544,
+            "german": "zusammen ",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "together"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 545,
+            "german": "Arm",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "arm"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 546,
+            "german": "Firma",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "firm",
+                "company"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 547,
+            "german": "gr\u00fcn",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "green"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 548,
+            "german": "jedenfalls",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "in any case"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 549,
+            "german": "Kraft",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "strenght",
+                "power"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 550,
+            "german": "lachen",
+            "article": null,
+            "type": "vern",
+            "translations": [
+                "to laugh"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 551,
+            "german": "September",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "september"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 552,
+            "german": "Student",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "student"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 553,
+            "german": "verwenden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to use"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 554,
+            "german": "w\u00e4hlen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to choose"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 555,
+            "german": "Zuhause",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "at home"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 556,
+            "german": "Chance",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "chance"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 557,
+            "german": "wobei",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "where",
+                "which",
+                "whereas"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 558,
+            "german": "erfolgen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to take place",
+                "to occur"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 559,
+            "german": "gesamt",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "whole",
+                "entire"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 560,
+            "german": "sieben",
+            "article": null,
+            "type": "num",
+            "translations": [
+                "seven"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 561,
+            "german": "speziell",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "special",
+                "specific"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 562,
+            "german": "Zeitung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "newspaper"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 563,
+            "german": "blo\u00df",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "only",
+                "simply",
+                "just"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 564,
+            "german": "enthalten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to contain"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 565,
+            "german": "enthalten(sich)",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to abstain"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 566,
+            "german": "betrachten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to look at",
+                "to consider"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 567,
+            "german": "entschelden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to decide"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 568,
+            "german": "Erfolg ",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "success"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 569,
+            "german": "gelingen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to succed"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 570,
+            "german": "Grenze",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "border",
+                "frontier"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 571,
+            "german": "jeweils",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "each",
+                "each time"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 572,
+            "german": "kaufen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to buy"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 573,
+            "german": "Satz",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "sentence"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 574,
+            "german": "wann",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "when"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 575,
+            "german": "Angebot",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "offer"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 576,
+            "german": "darum",
+            "article": null,
+            "type": "pron",
+            "translations": [
+                "around it",
+                "therefore"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 577,
+            "german": "entscheldend",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "decisive"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 578,
+            "german": "erfahren",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to experience",
+                "to find out"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 579,
+            "german": "Internet",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "internet"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 580,
+            "german": "Pro",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "pro"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 581,
+            "german": "unten",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "down"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 582,
+            "german": "eng",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "narrow",
+                "close"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 583,
+            "german": "insgesamt",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "in all",
+                "together"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 584,
+            "german": "Kultur",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "culture"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 585,
+            "german": "technisch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "technical"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 586,
+            "german": "vergessen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to forget"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 587,
+            "german": "Lage",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "situation",
+                "location"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 588,
+            "german": "Leistung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "performance"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 589,
+            "german": "Mitglied",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "member"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 590,
+            "german": "stattfinden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to take place",
+                "to occur"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 591,
+            "german": "vorher",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "earlier",
+                "beforehand"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 592,
+            "german": "beispielweise",
+            "article": null,
+            "type": "adv ",
+            "translations": [
+                "for example"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 593,
+            "german": "bewegen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to move"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 594,
+            "german": "feststellen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to establish",
+                "to detect"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 595,
+            "german": "langsam",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "slow"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 596,
+            "german": "Projekt",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "project"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 597,
+            "german": "verschwinden",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to disappear"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 598,
+            "german": "dienen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to serve"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 599,
+            "german": "trinken",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to drink"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 600,
+            "german": "Zimmer",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "room"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 601,
+            "german": "Chef",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "head",
+                "leader",
+                "boss"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 602,
+            "german": "meist",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "mostly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 603,
+            "german": "st\u00e4ndig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "constant"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 604,
+            "german": "Zug",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "train"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 605,
+            "german": "Arzt",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "physician",
+                "doctor"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 606,
+            "german": "auftreten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to appear",
+                "to occur"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 607,
+            "german": "Auftreten",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "behaviour",
+                "conduct",
+                "occurence"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 608,
+            "german": "Fu\u00df",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "foot"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 609,
+            "german": "K\u00f6rper",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "body"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 610,
+            "german": "notwendig",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "necessary"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 611,
+            "german": "Klasse",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "class"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 612,
+            "german": "L\u00f6sung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "solution"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 613,
+            "german": "rein",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "pure",
+                "clear",
+                "clean"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 614,
+            "german": "stimmen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to be correct",
+                "to vote",
+                "to tune"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 615,
+            "german": "trotzdem",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "nevertheless"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 616,
+            "german": "verhalten(sich)",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to behave",
+                "to react"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 617,
+            "german": "Verhalten ",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "behaviour"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 618,
+            "german": "zudem",
+            "article": null,
+            "type": "adv",
+            "translations": [
+                "moreover",
+                "besides"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 619,
+            "german": "berichten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to report"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 620,
+            "german": "Englisch",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "english"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 621,
+            "german": "H\u00f6he",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "height"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 622,
+            "german": "Junge",
+            "article": "der",
+            "type": "noun",
+            "translations": [
+                "boy"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 623,
+            "german": "rechnen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to calculate",
+                "do arithmetic"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 624,
+            "german": "wissenschaftlich",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "scientific",
+                "scholarly"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 625,
+            "german": "beobachten",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to observe",
+                "to watch"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 626,
+            "german": "Fenster",
+            "article": "das",
+            "type": "noun",
+            "translations": [
+                "window"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 627,
+            "german": "Luft",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "air"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 628,
+            "german": "Meinung",
+            "article": "die",
+            "type": "noun",
+            "translations": [
+                "opinion"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 629,
+            "german": "erleben",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to experience"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 630,
+            "german": "falsch",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "false",
+                "wrong"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 631,
+            "german": "fremd ",
+            "article": null,
+            "type": "adj",
+            "translations": [
+                "foreign",
+                "strange"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 632,
+            "german": "holen",
+            "article": null,
+            "type": "verb",
+            "translations": [
+                "to get",
+                "to fetch"
+            ],
+            "sentences": []
+        },
+        {
+            "id": 633,
+            "german": "Idee",
+            "article": "die",
+            "type": "noun",
+            "translations": [],
+            "sentences": []
+        }
+    ]
+}
