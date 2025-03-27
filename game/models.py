@@ -1,31 +1,10 @@
 from django.contrib.auth.models import User
 from django.db import models
 
+from flashlingo.db_connection import db
+
 # Create your models here.
 from django.utils import timezone
-
-
-class GermanWord(models.Model):
-    word = models.CharField(max_length=200, unique=True)
-    article = models.CharField(max_length=200)
-    word_type = models.CharField(max_length=200)
-
-    def __str__(self):
-        return self.word
-
-
-class Sentence(models.Model):
-    german_word = models.ForeignKey(
-        GermanWord, on_delete=models.CASCADE, related_name="sentences"
-    )
-    sentence = models.CharField(max_length=200)
-
-
-class Translation(models.Model):
-    german_word = models.ForeignKey(
-        GermanWord, on_delete=models.CASCADE, related_name="translations"
-    )
-    translation = models.CharField(max_length=200)
 
 
 class UserStatistics(models.Model):
@@ -72,16 +51,10 @@ class GameSession(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
     isEmpty = models.BooleanField("Is empty", default=True)
     level = models.IntegerField(default=1)
-    green_cards = models.ManyToManyField(
-        "GermanWord", related_name="game_sessions_green"
-    )
-    yellow_cards = models.ManyToManyField(
-        "GermanWord", related_name="game_sessions_yellow"
-    )
-    red_cards = models.ManyToManyField("GermanWord", related_name="game_sessions_red")
-    unclassified_cards = models.ManyToManyField(
-        "GermanWord", related_name="game_sessions_unc"
-    )
+    green_cards = models.JSONField(default=list)
+    yellow_cards = models.JSONField(default=list)
+    red_cards = models.JSONField(default=list)
+    unclassified_cards = models.JSONField(default=list)
     stats = models.ForeignKey(
         GameSessionStats,
         on_delete=models.CASCADE,
@@ -89,3 +62,6 @@ class GameSession(models.Model):
 
     def __str__(self):
         return f"{self.user.username}, level: {self.level}"
+
+
+word_collection = db["GermanWord"]

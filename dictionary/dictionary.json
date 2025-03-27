@@ -1,0 +1,1476 @@
+{
+    "data": [
+        {
+            "german": "der, die, das",
+            "types":[
+                { 
+                    "name":"art",
+                    "translations": ["the"],
+                    "examples": [
+                        {
+                            "sentence": "Der Mann küsst die Frau und das Kind schaut zu.",
+                            "translation": "The man kisses the woman, and the child watches."
+                        }
+                    ]
+                },
+                {
+                    "name": "pron",
+                    "translations": ["that", "those", "who", "that"],
+                    "examples": [
+                        {
+                            "sentence": "Das ist mein Fahrrad.",
+                            "translation": "That is my bike."
+                        },
+                        {
+                            "sentence": "Die Frau, die nebenan wohnt, heißt Renate.",
+                            "translation": "The woman who lives next door is called Renate."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "german":"ihr",
+            "types":[
+               {       "name": "pron",
+                    "translations":["you", "her", "their", "hers","theirs", "your"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "und",
+            "article": null,
+            "types": [
+                {   "name":"conj",
+                    "translations":["and"],
+                    "examples":
+                        [
+                            {
+                                "sentence": "Erwin und Brigitte gehen heute Abend in den Auerbachs keller essen",
+                                "translation": "Erwin and Brigitte are going to Auerbachs Keller to eat tonight"
+                            }
+                        ]
+                    }
+            ]
+        },
+        {
+            "german": "sein",
+            "article": null,
+            "types": [
+                { "name":"verb",
+                    "translations": ["to be"],
+                    "examples": [
+                        {
+                            "sentence":"Wir sind in der Sauna gewesen",
+                            "translation":"We were in the sauna"
+                        }
+                    ]
+                },{
+                    "name":"pron",
+                    "translations":["his, its"],
+                    "examples":[]
+                } 
+            ]
+        },
+        {
+            "german": "in",
+            "article": null,
+            "types": [
+                {   "name":"prep",
+                    "translations":["in"],
+                    "examples":[
+                        {
+                            "sentence":"Ich bin Student",
+                            "translation":"I am a student"
+                        }
+                    ]
+                }
+            ]
+    
+        },
+        {
+            "german": "im",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["in the"],
+                "examples": [
+                  {
+                    "sentence": "Im Kino ist es dunkel",
+                    "translation": "It's dark in the cinema"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "german": "ein",
+            "types": [
+              {
+                "name": "art",
+                "translations": ["a"],
+                "examples": []
+              },
+              {
+                "name": "pron",
+                "translations": ["one", "one of"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "zu",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["to", "at"],
+                "examples": []
+              },
+              {
+                "name": "part",
+                "translations": ["too", "to"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "haben",
+            "types": [
+              {
+                "name": "verb",
+                "translations": ["to have"],
+                "examples": []
+              },
+              {
+                "name": "aux",
+                "translations": ["have"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "ich",
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["I"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "werden",
+            "types": [
+              {
+                "name": "verb",
+                "translations": ["to become"],
+                "examples": []
+              },
+              {
+                "name": "aux",
+                "translations": [],
+                "examples": []
+              },
+              {
+                "name": "passive voice",
+                "translations": [],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "sie",
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["she", "her", "they", "them"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "Sie",
+            "article": null,
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["you"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "von",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["from", "of"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "nicht",
+            "types": [
+              {
+                "name": "part",
+                "translations": ["not"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "mit",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["with"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "es",
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["it"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "sich",
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["self"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "auch",
+            "types": [
+              {
+                "name": "adv",
+                "translations": ["also", "too"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "auf",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["on", "at", "in"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "für",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["for"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "an",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["at", "on"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "am",
+            "types": [
+              {
+                "name": "prep",
+                "translations": ["at the", "on the"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "er",
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["he"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "so",
+            "types": [
+              {
+                "name": "adv",
+                "translations": ["so", "thus", "this way", "such"],
+                "examples": []
+              },
+              {
+                "name": "part",
+                "translations": ["so"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "dass",
+            "types": [
+              {
+                "name": "conj",
+                "translations": ["that"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "können",
+            "types": [
+              {
+                "name": "verb",
+                "translations": ["can", "to be able to", "to be able", "be able to", "be able"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "dies",
+            "types": [
+              {
+                "name": "pron",
+                "translations": ["this", "that"],
+                "examples": []
+              }
+            ]
+          },
+          {
+            "german": "als",
+            "types": [
+              {
+                "name": "conj",
+                "translations": ["as", "when"],
+                "examples": []
+              },
+              {
+                "name": "part",
+                "translations": ["than"],
+                "examples": []
+              }
+            ]
+          },          
+
+        {
+            "german": "ja",
+            "types": [ {
+                "name":"part",
+                "translations":["yes", "of course", "certainly", "really"],
+                "examples":[]
+            }]
+        },
+        {
+            "german": "wie",
+            "types": [
+                {
+                    "name":"pron",
+                    "translations":["how"],
+                    "examples":[]
+                },
+                {
+                    "name":"part",
+                    "translations":["as"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "bei",
+            "type": [
+                {
+                    "name":"prep",            
+                    "translations": 
+                        [
+                            "by",
+                            "with",
+                            "at"
+                        ],
+                    "examples":[]
+                }
+            ]
+
+        },
+        {
+            "german": "oder",
+            "types": [{ "name":"conj",
+                "translations": [
+                    "or"
+                ],
+                "examples":[]}]
+        },
+        {
+            "german": "wir",
+            "types": [{
+                "name": "pron",
+                "translations":["we"],
+                "examples":[]
+            }]
+            
+        },
+        {
+            "german": "aber",
+            "types":[
+                {
+                    "name":"conj",
+                    "translations":["but"],
+                    "examples":[]
+                },
+                {
+                    "name":"part",
+                    "translations":[""],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "dann",
+            "types":[
+                {
+                    "name": "adv",
+                    "translations":["then"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "man",
+           "types":[
+            {
+                "name":"pron",
+                "translations":["one", "you"],
+                "examples":[]
+            }
+           ]
+        },
+        {
+            "german": "da",
+            "types":[{
+                "name":"adv",
+                "translations":["there"],
+                "examples":[]
+            },
+            {
+                "name":"conj",
+                "translations":["because"],
+                "examples":[]
+            }
+        ]
+        },
+        {
+            "german": "noch",
+            "types":[{
+                "name":"adv",
+                "translations":["still", "yet"],
+                "examples":[]
+            }]
+            
+        },
+        {
+            "german": "nach",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["after", "towards"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "was",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["what"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "also",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["so"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "aus",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["out", "out of", "from"],
+                    "examples":[]
+                }
+            ]
+        },
+        {
+            "german": "all",
+            "types":[{
+                "name":"pron",
+                "translations":["all"],
+                "examples":[]
+            }]
+        },
+        {
+            "german": "wenn",
+            "types":[
+                {
+                    "name":"conj",
+                    "translations":["if", "when"]
+                }
+            ]
+           
+        },
+        {
+            "german": "nur",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["only"]
+                }
+            ]
+        },
+        {
+            "german": "m\u00fcssen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to have to", "must"]
+                }
+            ]
+        },
+        {
+            "german": "sagen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to say"]
+                }
+            ]
+        },
+        {
+            "german": "um",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["around", "at"]
+                }
+               
+            ]
+        },
+        {
+            "german": "\u00fcber",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["above","over","about"]
+                }
+            ]
+        },
+        {
+            "german": "machen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to do", "make"]
+                }
+            ]
+        },
+        {
+            "german": "kein(e)",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["no"]
+                }
+            ]
+        },
+        {
+            "german": "Jahr",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"das",
+                    "translations":["year"]
+                }
+            ]
+        },
+        {
+            "german": "du",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["you"]
+                }
+            ]
+        },
+        {
+            "german": "mein(e)",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["mein", "my"]
+                }
+            ]
+        },
+        {
+            "german": "schon",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["already"]
+                },
+                {
+                    "name":"part",
+                    "translations":[]
+                }
+            ]
+        },
+        {
+            "german": "vor",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["in front of", "before", "ago"]
+                }
+            ]
+        },
+        {
+            "german": "durch",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["through"]
+                }
+            ]
+        },
+        {
+            "german": "geben",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to give"]
+                }
+            ]
+        },
+        {
+            "german": "mehr",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["more"]
+                }
+            ]
+        },
+        {
+            "german": "andere",
+            "types":[{
+                "name":"pron",
+                "translations":["other"]
+            }]
+        },
+        {
+            "german": "viel",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["much","a lot","many"]
+                }
+            ]
+        },
+        {
+            "german": "kommen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to come"]
+                }
+            ]
+        },
+        {
+            "german": "jetzt",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["now"]
+                }
+            ]
+        },
+        {
+            "german": "sollen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["should", "ought to"]
+                }
+            ]
+        },
+        {
+            "german":"mir",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["me"]
+                }
+            ]
+        },
+        {
+            "german": "wollen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to want"]
+                }
+            ]
+        },
+        {
+            "german": "ganz",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["whole", "all the"]
+                }
+            ]
+        },
+        {
+            "german":"mich",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["me"]
+                }
+            ]
+        },
+        {
+            "german": "immer",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["always"]
+                }
+            ]
+        },{
+            "german":"gehen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to go"]
+                }
+            ]
+        },
+        {
+            "german":"sehr",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["very"]
+                }
+            ]
+        },{
+            "german":"hier",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":[
+                        "here"
+                    ]
+                }
+            ]
+        },{
+            "german":"doch",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":[
+                        "however", "still"
+                    ]
+                }
+            ]
+        },
+        {
+            "german":"bis",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":[
+                        "until","till"
+                    ]
+                },{
+                    "name":"conj",
+                    "translations":[
+                        "until"
+                    ]
+                }
+            ]
+        },{
+            "german":"groß",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":[
+                        "big","large","great"
+                    ]
+                }
+            ]
+        },{
+            "german":"wieder",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":[
+                        "again"
+                    ]
+                }
+            ]
+        },{
+            "german":"Mal",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"das",
+                    "translations":["time"]
+                }
+            ]
+        },{
+            "german":"mal",
+            "types":[
+                {
+                    "name":"conj",
+                    "translations":["times"]
+                },{
+                    "name":"part",
+                    "translations":[]
+                }
+            ]
+        },{
+            "german":"zwei",
+            "types":[{
+                "name":"num",
+                "translations":[2, "two"]
+            }]
+        },{
+            "german":"gut",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["good"]
+                }
+            ]
+        },{
+            "german":"wissen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to know"]
+                }
+            ]
+        },{
+            "german":"neu",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["new"]
+                }
+            ]
+        },{
+            "german":"sehen",
+            "types":[{
+                "name":"verb",
+                "translations":["to see"]
+            }]
+        },{
+            "german":"lassen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to let", "allow", "have done"]
+                }
+            ]
+        },{
+            "german":"uns",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["us"]
+                }
+            ]
+        },{
+            "german":"weil",
+            "types":[{
+                "name":"conj",
+                "translations":["because"]
+            }]
+        },
+        {
+            "german":"unter",
+            "types":[{
+                "name":"prep",
+                "translations":["under"]
+            }]
+        },
+        {
+            "german":"denn",
+            "types":[{
+                "name":"conj",
+                "translations":["because"]
+            },
+            {
+                "name":"part",
+                "translations":[]
+            }    
+        ]
+        },{
+            "german":"stehen",
+            "types":[{
+                "name":"verb",
+                "translations":["to stand"]
+            }]
+        },{
+            "german":"jede (r,s)",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["every"]
+                }
+            ]
+        },
+        {
+            "german":"Beispiel",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"das",
+                    "translations":["example"]
+                }
+            ]
+        },{
+            "germa":"Zeit",
+            "types":[
+                {
+                    "name":"noun",
+                    "translations":["time"]
+                }
+            ]
+        },{
+            "german":"erste",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["first"]
+                }
+            ]
+        },{
+            "german":"ihm",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["him"]
+                }
+            ]
+        },{
+            "german":"wo",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["where"]
+                }
+            ]
+        },{
+            "german":"lang",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["long"]
+                },
+                {
+                    "name":"adv",
+                    "translations":["for a long time"]
+                }
+            ]
+        },{
+            "german":"eigentlich",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["actually"]
+                },{
+                    "name":"adj",
+                    "translations":["actual", "real"]
+                }
+            ]
+        },{
+            "german":"damit",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["with it"]
+                },
+                {
+                    "name":"conj",
+                    "translations":["so that"]
+                }
+            ]
+        },{
+            "german":"selbst, selber",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["self"]
+                },{
+                    "name":"part",
+                    "translations":["even"]
+                }
+            ]
+        },{
+            "german":"unser",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["our"]
+                }
+            ]
+        },{
+            "german":"oben",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["above", "up there"]
+                }
+            ]
+        },{
+           "german":"drei",
+           "types": [
+            {
+                "name":"num",
+                "translations":["three", 3]
+            }
+           ] 
+        },{
+            "german":"wenig",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["few"]
+                },{
+                    "name":"pron",
+                    "translations":["little", "few"]
+                }
+            ]
+        },{
+            "german":"Frau",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"die",
+                    "translations":["woman", "wife", "Mrs."]
+                }
+            ]
+        },{
+            "german":"Mensch",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"der",
+                    "translations":["human being","man"]
+                }
+            ]
+        },{
+            "german":"deutsch",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["German"]
+                },{
+                    "name":"noun",
+                    "article":"das",
+                    "translations":["German"]
+                }
+            ]
+        },{
+            "german":"Kind",
+            "types":[
+                {
+                    "name":"noun",
+                    "translations":["child"]
+                }
+            ]
+        },{
+            "german":"etwas",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["something", "some", "a little"]
+                }
+            ]
+        },{
+            "german":"Tag",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"der",
+                    "translations":["day"]
+                }
+            ]
+        },{
+            "german":"nun",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["now"]
+                }
+            ]
+        },{
+            "german":"finden",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to find"]
+                }
+            ]
+        },{
+            "german":"nichts",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["nothing"]
+                }
+            ]
+        },{
+            "german":"bleiben",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to stay", "remain"]
+                }
+            ]
+        },{
+            "german":"sondern",
+            "types":[
+                {
+                    "name":"conj",
+                    "translations":["but", "on the contrary"]
+                }
+            ]
+        },{
+            "german":"klein",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["small", "little"]
+                }
+            ]
+        },{
+            "german":"zwischen",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["between"]
+                }
+            ]
+        },{
+            "german":"alt",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["old"]
+                }
+            ]
+        },{
+            "german":"gegen",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["against"]
+                }
+            ]
+        },{
+            "german":"liegen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to lie"]
+                }
+            ]
+        },{
+            "german":"ohne",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["without"]
+                }
+            ]
+        },{
+            "german":"nein",
+            "types":[
+                {
+                    "name":"part",
+                    "translations":["no"]
+                }
+            ]
+        },{
+            "german":"heute",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["today"]
+                }
+            ]
+        },{
+            "german":"weit",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["widely", "far"]
+                }
+            ]
+        },{
+            "german":"heißen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to be called", "to be named"]
+                }
+            ]
+        },{
+            "german":"denken",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to think"]
+                }
+            ]
+        },{
+            "german":"eben",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["just now"]
+
+                }
+            ]
+        },{
+            "german":"erst",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["first", "only", "not until"]
+                }
+            ]
+        },{
+            "german":"natürlich",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["naturally", "of course"]
+                },{
+                    "name":"adj",
+                    "translations":["natural"]
+                }
+            ]
+        },{
+            "german":"ob",
+            "types":[
+                {
+                    "name":"conj",
+                    "translations":["whether"]
+                }
+            ]
+        },{
+            "german":"hoch",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["high", "tall"]
+                }
+            ]
+        },{
+            "german":"beide",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["both"]
+                }
+            ]
+        },{
+            "german":"Mann",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"der",
+                    "translations":["man"]
+                }
+            ]
+        },{
+            "german":"einfach",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["simple","easy"]
+                },{
+                    "name":"part",
+                    "translations":["simply"]
+                }
+            ]
+        },{
+            "german":"vielleicht",
+            "types":[{
+                "name":"adv",
+                "translations":["perhaps"]
+            }]
+        },{
+            "german":"dort",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["there"]
+                }
+            ]
+            
+        },{
+            "german":"dabei",
+            "types":[{
+                "name":"pron",
+                "translations":["with it","there"]
+            }]
+        },{
+            "german":"einmal",
+            "types":[
+                {
+                    "name":"adv",
+                    "translations":["once"]
+                }
+            ]
+        },{
+            "german":"ihnen",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["them", "you"]
+                }
+            ]
+        },{
+            "german":"weich",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["which"]
+                }
+            ]
+        },{
+            "german":"nehmen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to take"]
+                }
+            ]
+        },{
+            "german":"tun",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to do"]
+                }
+            ]
+        },
+        {
+            "german":"seit",
+            "types":[
+                {
+                    "name":"prep",
+                    "translations":["since", "for"]
+                }
+            ]
+        },
+        
+        {
+            "german":"dürfen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to be allowed","may"]
+                }
+            ]
+        },{
+            "german":"glauben",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to believe"]
+                }
+            ]
+        },{
+            "german":"halten",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to stop", "hold"]
+                }
+            ]
+        },{
+            "german":"nennen",
+            "types":[
+                {
+                    "name":"verb",
+                    "translations":["to name","call"]
+                }
+            ]
+        },{
+            "german":"Land",
+            "types":[
+                {
+                    "name":"noun",
+                    "article":"das",
+                    "translations":["land", "country","state"]
+                }
+            ]
+        },{
+            "german":"letzte",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["last"]
+                }
+            ]
+        },{
+            "german":"gleich",
+            "types":[
+                {
+                    "name":"adj",
+                    "translations":["same","right away","just"]
+                }
+            ]
+        },{
+            "german":"solch",
+            "types":[
+                {
+                    "name":"pron",
+                    "translations":["such"]
+                }
+            ]
+        }
+    ]
+}
+     

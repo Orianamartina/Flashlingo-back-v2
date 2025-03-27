@@ -1,0 +1,36 @@
+services:
+  flashlingo-back:
+    build: .
+    container_name: flashlingo-back
+    depends_on:
+      - flashlingo-mongo
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "python manage.py migrate; python manage.py load_word_dictionary; python manage.py runserver 0.0.0.0:8000"
+
+
+    volumes: 
+      - .:/flashlingo-back
+
+  flashlingo-daphne:
+    build: .
+    container_name: flashlingo-daphne
+    depends_on:
+      - flashlingo-back
+    ports:
+      - "8001:8001"
+    command: daphne -p 8001 -b 0.0.0.0 flashlingo.asgi:application
+
+  flashlingo-mongo:
+    image: mongo:6
+    container_name: flashlingo-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

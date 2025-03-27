@@ -2,59 +2,32 @@
 from rest_framework import serializers
 
 from .models import (
-    GameSession,
     GameSessionStats,
-    GermanWord,
-    Sentence,
-    Translation,
     UserStatistics,
 )
 
 
-class SentenceSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Sentence
-        fields = ["id", "sentence", "german_word"]
+class GermanWordSerializer(serializers.Serializer):
+    """
+    Serializer for mongo German word
+    """
 
-
-class TranslationSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Translation
-        fields = ["id", "translation", "german_word"]
-
-
-class GermanWordSerializer(serializers.ModelSerializer):
-    sentences = SentenceSerializer(many=True, read_only=True)
-    translations = TranslationSerializer(many=True, read_only=True)
+    translations = serializers.SerializerMethodField()
+    _id = serializers.CharField()
+    word = serializers.CharField()
 
     class Meta:
-        model = GermanWord
-        fields = ["id", "word", "article", "word_type", "sentences", "translations"]
+        fields = ["id", "word", "types"]
 
+    def get_translations(self, obj):
+        if "types" not in obj:
+            return []
 
-class SentenceResponseSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Sentence
-        fields = ["sentence"]  # Only include the sentence field
+        all_translations = []
+        for type_entry in obj["types"]:
+            all_translations.extend(type_entry.get("translations", []))
 
-
-class TranslationResponseSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Translation
-        fields = ["translation"]  # Only include the translation field
-
-
-class GermanWordResponseSerializer(serializers.ModelSerializer):
-    sentences = SentenceResponseSerializer(
-        many=True, read_only=True
-    )  # Use the updated SentenceSerializer
-    translations = TranslationResponseSerializer(
-        many=True, read_only=True
-    )  # Use the updated TranslationSerializer
-
-    class Meta:
-        model = GermanWord
-        fields = ["id", "word", "article", "word_type", "sentences", "translations"]
+        return list(set(t.strip().lower() for t in all_translations))
 
 
 class UserStatisticSerializer(serializers.ModelSerializer):
@@ -93,23 +66,19 @@ class GameSessionUpdateRequestSerializer(serializers.Serializer):
     stats = GameSessionStatsRequestSerializer()
 
 
-class GameSessionSerializer(serializers.ModelSerializer):
-    green_cards = GermanWordResponseSerializer(many=True)
-    yellow_cards = GermanWordResponseSerializer(many=True)
-    red_cards = GermanWordResponseSerializer(many=True)
-    unclassified_cards = GermanWordResponseSerializer(many=True)
-    stats = GameSessionStatsSerializer()
+class GameSessionUpdateResponseSerializer(serializers.Serializer):
+    full_green = serializers.BooleanField()
+    highest_score = serializers.BooleanField()
+    lowest_game_time = serializers.BooleanField()
+    new_level = serializers.BooleanField()
 
-    class Meta:
-        model = GameSession
-        fields = (
-            "green_cards",
-            "yellow_cards",
-            "red_cards",
-            "unclassified_cards",
-            "id",
-            "stats",
-        )
+
+class GameSessionResponseSerializer(serializers.Serializer):
+    green_cards = serializers.ListField(child=GermanWordSerializer())
+    yellow_cards = serializers.ListField(child=GermanWordSerializer())
+    red_cards = serializers.ListField(child=GermanWordSerializer())
+    unclassified_cards = serializers.ListField(child=GermanWordSerializer())
+    id = serializers.IntegerField()
 
 
 class GameSessionRequestSerializer(serializers.Serializer):

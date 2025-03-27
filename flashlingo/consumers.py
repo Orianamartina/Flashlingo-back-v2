@@ -10,8 +10,7 @@ class MyConsumer(AsyncWebsocketConsumer):
         await self.send(text_data=json.dumps({"message": "connected"}))
 
     async def disconnect(self, code):
-        # return super().disconnect(code)
-        pass
+        return super().disconnect(code)
 
     async def receive(self, text_data=None, bytes_data=None):
         data = json.loads(text_data)

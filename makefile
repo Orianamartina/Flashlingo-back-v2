@@ -7,9 +7,12 @@ server:
 	python manage.py runserver
 shell:
 	python manage.py shell
+setup:
+	docker compose up --build
 run:
-	@echo "Activating virtual environment and starting server"
-	$(ACTIVATE_VENV) && python manage.py runserver
+	docker compose up
+down:
+	docker compose down
 migrate:
 	python manage.py migrate
 migrations:

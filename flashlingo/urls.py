@@ -28,14 +28,8 @@ user_urls = [
 """
 game_urls = [
     path("admin/", admin.site.urls),
-    path("dictionary/", game_views.GermanWordsView.as_view(), name="all_words"),
     path(
-        "dictionary/<int:id>",
-        game_views.GermanWordsByIdView.as_view(),
-        name="words_by_id",
-    ),
-    path(
-        "game-session/<int:id>",
+        "game-session/<int:stats_id>",
         game_views.GetGameSessionView.as_view(),
         name="get_game_session",
     ),

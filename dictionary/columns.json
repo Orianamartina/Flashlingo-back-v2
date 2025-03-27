@@ -1,0 +1,10 @@
+{
+    "columns": [
+        "german ",
+        "id",
+        "article",
+        "type",
+        "translations",
+        "sentences"
+    ]
+}

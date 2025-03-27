@@ -1,5 +1,4 @@
 import json
-from datetime import timedelta
 
 from django.db import transaction
 from django.http import JsonResponse
@@ -10,59 +9,28 @@ from drf_spectacular.utils import (
     extend_schema,
     inline_serializer,
 )
-from rest_framework import serializers, status
+from rest_framework import serializers
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .exceptions import GameBlockedException
-from .models import GameSession, GameSessionStats, GermanWord, UserStatistics
+from .models import GameSession, GameSessionStats, UserStatistics, word_collection
 from .serializers import (
-    GameSessionSerializer,
+    GameSessionResponseSerializer,
     GameSessionStatsSerializer,
     GameSessionUpdateRequestSerializer,
-    GermanWordSerializer,
+    GameSessionUpdateResponseSerializer,
 )
-from .utils import get_words_for_game_session
+from .utils import (
+    get_words_for_game_session,
+    update_game_session,
+    update_game_session_stats,
+    update_user_stats,
+)
+import logging
 
-
-# Create your views here. endpoints
-class GermanWordsView(APIView):
-    """
-    Get all words
-    """
-
-    permission_classes = []
-
-    @extend_schema(
-        request=None,
-        responses={200: GermanWordSerializer(many=True)},
-        description="Retrieve a list of all German words",
-    )
-    def get(self, request, *kwargs):
-        all_words = GermanWord.objects.all()
-        serializer = GermanWordSerializer(all_words, many=True)
-        return Response(serializer.data)
-
-
-class GermanWordsByIdView(APIView):
-    """
-    Obtain a word by it's id
-    """
-
-    @extend_schema(
-        responses={200: GermanWordSerializer, 404: {"error": "Word not found"}},
-        description="Retrieve a German word by its ID",
-    )
-    def get(self, request, id, *kwargs):
-        try:
-            found_word = GermanWord.objects.get(pk=id)
-        except GermanWord.DoesNotExist:
-            return Response(
-                {"error": "Word not found"}, status=status.HTTP_404_NOT_FOUND
-            )
-        serializer = GermanWordSerializer(found_word)
-        return Response(serializer.data)
+logger = logging.getLogger(__name__)
 
 
 class GetGameSessionView(APIView):
@@ -77,8 +45,8 @@ class GetGameSessionView(APIView):
         summary="Get or create a game session",
         description="Retrieve an existing game session or create a new one if it doesn't exist for the given user and level.",
         responses={
-            200: GameSessionSerializer,
-            201: GameSessionSerializer,
+            200: GameSessionResponseSerializer,
+            201: GameSessionResponseSerializer,
             400: OpenApiResponse(
                 description="Game session is blocked",
                 examples=[{"error": "Game session is currently blocked."}],
@@ -96,26 +64,46 @@ class GetGameSessionView(APIView):
             )
         ],
     )
-    def get(self, request, id, *kwargs):
+    def get(self, request, stats_id, *kwargs):
         try:
-            game_session = GameSession.objects.get(id=id)
-            print(game_session)
+            game_session = GameSession.objects.get(stats_id=stats_id)
             if game_session.stats.blocked:
                 raise GameBlockedException()
             if game_session.isEmpty:
                 german_words = get_words_for_game_session(game_session.level)
-                game_session.unclassified_cards.set(german_words)
+
+                word_ids = [str(word["_id"]) for word in german_words]
+
+                game_session.unclassified_cards = word_ids
                 game_session.isEmpty = False
                 game_session.save()
 
-            serializer = GameSessionSerializer(game_session)
+            green_cards = word_collection.find(
+                {"_id": {"$in": game_session.green_cards}}
+            )
+            yellow_cards = word_collection.find(
+                {"_id": {"$in": game_session.yellow_cards}}
+            )
+            red_cards = word_collection.find({"_id": {"$in": game_session.red_cards}})
+            unclassified_cards = word_collection.find(
+                {"_id": {"$in": game_session.unclassified_cards}}
+            )
 
-            return JsonResponse(serializer.data)
+            serializer_data = {
+                "green_cards": green_cards,
+                "yellow_cards": yellow_cards,
+                "red_cards": red_cards,
+                "unclassified_cards": unclassified_cards,
+                "id": game_session.id,
+            }
+            serializer = GameSessionResponseSerializer(serializer_data)
+            return JsonResponse(serializer.data, status=200)
         except GameBlockedException as e:
             return JsonResponse({"error": str(e)}, status=400)
-
         except Exception as e:
-            return JsonResponse({"error": e})
+            logger.error(f"Error fetching session {str(e)}")
+
+            return JsonResponse({"error": str(e)}, status=500)
 
 
 class UpdateGameSessionView(APIView):
@@ -139,10 +127,7 @@ class UpdateGameSessionView(APIView):
         ],
         request=GameSessionUpdateRequestSerializer,
         responses={
-            200: inline_serializer(
-                name="GameSessionUpdateResponse",
-                fields={"success": serializers.CharField()},
-            ),
+            200: GameSessionUpdateResponseSerializer,
             404: inline_serializer(
                 name="GameSessionUpdateNotFoundResponse",
                 fields={"error": serializers.CharField()},
@@ -162,125 +147,53 @@ class UpdateGameSessionView(APIView):
         }
         try:
             with transaction.atomic():
-
                 game_session = GameSession.objects.get(id=session_id)
                 if game_session.user != request.user:
                     raise Exception("Unauthorized user")
 
                 data = json.loads(request.body)
-                # Clear the existing cards
-                game_session.red_cards.clear()
-                game_session.yellow_cards.clear()
-                game_session.green_cards.clear()
-                game_session.unclassified_cards.clear()
-
-                # Check if the number of cards is valid
-                if (
-                    len(data["green_cards"])
-                    + len(data["yellow_cards"])
-                    + len(data["red_cards"])
-                ) != 50:
-                    raise Exception("Invalid number of cards")
-
-                empty_cards = 0
                 session_words = {
                     "green_cards": data["green_cards"],
                     "red_cards": data["red_cards"],
                     "yellow_cards": data["yellow_cards"],
                 }
-                print("parsing cards")
-                for classification, words in session_words.items():
-                    print(classification)
-                    if len(words) == 0:
-                        empty_cards += 1
-                    for word in words:
-                        german_word = GermanWord.objects.get(id=word)
+                update_game_session(
+                    game_session=game_session, session_words=session_words
+                )
 
-                        if classification == "green_cards":
-                            game_session.green_cards.add(german_word)
-                        elif classification == "yellow_cards":
-                            game_session.yellow_cards.add(german_word)
-                        elif classification == "red_cards":
-                            game_session.red_cards.add(german_word)
-
-                if empty_cards == 4:
-                    raise Exception("Too many empty card classifications")
-
-                game_session.save()
-                # Update the stats
+                # Update the game session stats
                 game_stats = game_session.stats
                 new_stats = GameSessionStatsSerializer(data=data["stats"])
                 if new_stats.is_valid():
-                    new_stats_data = new_stats.validated_data
-
-                    game_stats.green_cards = len(data["green_cards"])
-                    if game_stats.green_cards == 50:
-                        response["full_green"] = True
-                    game_stats.yellow_cards = len(data["yellow_cards"])
-                    game_stats.red_cards = len(data["red_cards"])
-                    game_stats.total_time_played += new_stats_data["total_time_played"]
-                    game_stats.score += new_stats_data["score"]
-                    if (
-                        game_stats.lowest_game_time == 0
-                        or game_stats.lowest_game_time
-                        > new_stats_data["total_time_played"]
-                    ):
-                        game_stats.lowest_game_time = new_stats_data[
-                            "total_time_played"
-                        ]
-                        response["lowest_game_time"] = True
-
-                    game_stats.total_responses += new_stats_data["total_responses"]
-                    if game_stats.highest_score < new_stats_data["highest_score"]:
-                        response["highest_score"] = True
-                    game_stats.highest_score = max(
-                        game_stats.highest_score, new_stats_data["highest_score"]
+                    response.update(
+                        update_game_session_stats(
+                            new_stats=new_stats,
+                            game_stats=game_stats,
+                            green_cards=len(data["green_cards"]),
+                            yellow_cards=len(data["yellow_cards"]),
+                            red_cards=len(data["red_cards"]),
+                        )
                     )
-                    game_stats.highest_answer_streak = max(
-                        game_stats.highest_answer_streak,
-                        new_stats_data["highest_answer_streak"],
-                    )
-                    game_stats.save()
 
-                # Check for user level progress
-                user_stats = UserStatistics.objects.get(user=request.user)
-                if (
-                    game_stats.level == user_stats.highest_level
-                    and game_stats.points >= 70
-                ):
-                    user_stats.highest_level += 1
-                    user_stats.save()
-                    next_level = GameSessionStats.objects.get(
-                        level=game_stats.level + 1, user=request.user
-                    )
-                    next_level.unlock()
-                    next_level.save()
-                    response["new_level"] = True
+                # Update user stats
+                response.update(
+                    update_user_stats(user=request.user, game_stats=game_stats)
+                )
 
-                today = timezone.now().date()
-                stats = UserStatistics.objects.get(user=request.user)
-
-                if stats.last_day_played == today - timedelta(days=1):
-                    stats.days_streak += 1
-                if stats.days_streak > stats.longest_streak:
-                    stats.longest_streak = stats.days_streak
-                else:
-                    stats.days_streak = 1
-
-                stats.last_day_played = today
-                stats.save()
-
-                return JsonResponse(response, status=200)
+                serializer = GameSessionUpdateResponseSerializer(response)
+                return JsonResponse(serializer.data, status=200)
 
         except UserStatistics.DoesNotExist:
             today = timezone.now().date()
-            stats = UserStatistics.objects.create(
+            UserStatistics.objects.create(
                 user=request.user,
                 last_day_played=today,
                 days_streak=1,
                 longest_streak=1,
             )
-            return JsonResponse(response, status=200)
+            return JsonResponse(
+                GameSessionUpdateResponseSerializer(response), status=200
+            )
 
         except GameSession.DoesNotExist:
             return JsonResponse({"error": "Game session not found"}, status=404)
@@ -312,6 +225,6 @@ class GetAllSessionStats(APIView):
             game_stats = GameSessionStats.objects.filter(user=request.user)
             serializer = GameSessionStatsSerializer(game_stats, many=True)
 
-            return Response(serializer.data, status=status.HTTP_200_OK)
+            return Response(serializer.data, status=200)
         except Exception as e:
             return JsonResponse({"error": f"{e}"}, status=400)
