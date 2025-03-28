@@ -41,5 +41,5 @@ make run
 
 ### 5. Shutdown the services:
 ```
-make down
+make stop
 ```

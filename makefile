@@ -8,11 +8,13 @@ server:
 shell:
 	python manage.py shell
 setup:
-	docker compose up --build
+	docker compose up --build -d
+	docker compose exec flashlingo-back sh -c "python manage.py migrate"
+	docker compose exec flashlingo-back sh -c "python manage.py load_word_dictionary"
 run:
 	docker compose up
-down:
-	docker compose down
+stop:
+	docker compose stop
 migrate:
 	python manage.py migrate
 migrations:
