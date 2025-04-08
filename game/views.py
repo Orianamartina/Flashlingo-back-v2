@@ -174,12 +174,11 @@ class UpdateGameSessionView(APIView):
                             red_cards=len(data["red_cards"]),
                         )
                     )
-
                 # Update user stats
                 response.update(
                     update_user_stats(user=request.user, game_stats=game_stats)
                 )
-
+                print(response)
                 serializer = GameSessionUpdateResponseSerializer(response)
                 return JsonResponse(serializer.data, status=200)
 

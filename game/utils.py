@@ -161,6 +161,7 @@ def update_game_session_stats(
         new_stats_data["highest_answer_streak"],
     )
     game_stats.save()
+    achievements.update(GameSessionStatsSerializer(game_stats).data)
 
     return achievements
 

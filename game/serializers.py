@@ -71,6 +71,17 @@ class GameSessionUpdateResponseSerializer(serializers.Serializer):
     highest_score = serializers.BooleanField()
     lowest_game_time = serializers.BooleanField()
     new_level = serializers.BooleanField()
+    level = serializers.IntegerField()
+    green_cards = serializers.IntegerField()
+    yellow_cards = serializers.IntegerField()
+    red_cards = serializers.IntegerField()
+    total_time_played = serializers.IntegerField()
+    lowest_game_time = serializers.IntegerField()
+    total_responses = serializers.IntegerField()
+    highest_score = serializers.IntegerField()
+    highest_answer_streak = serializers.IntegerField()
+    points = serializers.IntegerField()
+    score = serializers.IntegerField()
 
 
 class GameSessionResponseSerializer(serializers.Serializer):
